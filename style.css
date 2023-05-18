@@ -6,6 +6,44 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.recipy-item {
+    border: 29px solid white;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.recipy-item p {
+    font-size: 17px;
+    padding: 10px;
+    color: #706b6b;
+}
+
+.recipy-item h3 {
+    font-size: 27px;
+    padding: 10px;
+    color: #605f5f;
+}
+
+.recipy {
+    margin-bottom: 100px;
+}
+
+.recipy-head-box h2 {
+    font-size: 45px;
+    margin-bottom: 21px;
+}
+
+.recipy-head-box p {
+    width: 468px;
+    font-size: 17px;
+    margin: auto;
+}
+
+.recipy-head-box {
+    text-align: center;
+    padding: 0px 0 100px;
+}
+
 .aboutMe-img {
     margin: 110px 100px 110px 350px;
 }
@@ -82,4 +120,10 @@
 
 .contactb {
     line-height: 200px;
+}
+
+.racipy-box {
+    display: flex;
+    gap: 37px;
+    margin: 0px 132px 0;
 }
