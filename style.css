@@ -6,6 +6,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+    background: #000;
+    color: #9b9ea1;
+    padding: 48px;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer h3 {
+    font-size: 50px;
+}
+
+.footer-er-ftani {
+    color: #ff6600;
+}
+
+.follower {
+    align-items: center;
+    justify-content: center;
+}
+
 .follower-box {
     margin: 60px;
     text-align: center;
@@ -147,7 +168,7 @@
     width: 80%;
     align-items: center;
     justify-content: center;
-    margin: 100px;
+    margin: 139px;
     border-radius: 15px;
     box-shadow: 5px 5px 13px gray;
 }
