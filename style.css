@@ -6,6 +6,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.follower-box {
+    margin: 60px;
+    text-align: center;
+}
+
+.follower-box h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.follower-box span {
+    font-size: 19px;
+}
+
 .recipy-item {
     border: 29px solid white;
     border-radius: 32px;
@@ -126,4 +140,14 @@
     display: flex;
     gap: 37px;
     margin: 0px 132px 0;
+}
+
+.main-boxF {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 13px gray;
 }
