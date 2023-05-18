@@ -6,6 +6,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.aboutMe-img {
+    margin: 110px 100px 110px 350px;
+}
+
+.aboutMe-text {
+    width: 50%;
+    color: #6c6868;
+    padding: 200px 80px;
+}
+
+.aboutMe-text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.aboutMe-text p {
+    font-size: 18px;
+    width: 488px;
+    line-height: 30px;
+}
+
 .flex-sec {
     display: flex;
     margin-bottom: 100px;
@@ -23,7 +45,7 @@
 }
 
 .headSecText h1 {
-    font-size: 72px;
+    font-size: 67px;
 }
 
 .headSecImg {
@@ -55,5 +77,9 @@
 .aboutme-bg {
     background-image: url('images/shapes/7.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+
+.contactb {
+    line-height: 200px;
 }
