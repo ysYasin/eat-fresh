@@ -6,6 +6,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav.navi {
+    padding: 20px;
+    background: #996a171a;
+    margin: auto;
+    border-radius: 10px;
+    position: sticky;
+}
+
 footer {
     background: #000;
     color: #9b9ea1;
@@ -163,7 +171,7 @@ footer h3 {
     margin: 0px 132px 0;
 }
 
-.main-boxF {
+.main-box F {
     display: flex;
     width: 80%;
     align-items: center;
@@ -171,4 +179,31 @@ footer h3 {
     margin: 139px;
     border-radius: 15px;
     box-shadow: 5px 5px 13px gray;
+}
+
+.navi ul {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    justify-content: center;
+}
+
+.navi ul li a {
+    text-decoration: none;
+    color: #ff7205;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 9px;
+    padding: 10px 20px;
+}
+
+.navi ul li:hover a {
+    background: white;
+    color: black;
+}
+
+.navi li {
+    color: aqua;
+    text-decoration: none;
+    list-style: none;
 }

@@ -1,0 +1,40 @@
+  @media screen and (max-width:576px) {
+
+      .flex-sec {
+          flex-direction: column-reverse;
+      }
+
+      .headSecImg {
+          background-size: 300px;
+      }
+
+      .headSecImg img {
+          width: 340px;
+          position: relative;
+          left: 14px;
+          top: 0px;
+          margin: 0px 8px;
+      }
+
+      .headSecText {
+          width: 90%;
+          margin: 4px 0 0 35px;
+
+      }
+
+      .headSecText h1 {
+          font-size: 35px;
+      }
+
+      .headSecText p {
+          font-size: 20px;
+          padding: 41px 0;
+      }
+
+      .aboutme-bg {
+          display: flex;
+          flex-direction: column;
+          background-size: cover;
+      }
+
+  }
